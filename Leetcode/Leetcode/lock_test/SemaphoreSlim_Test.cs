@@ -15,7 +15,7 @@ namespace Leetcode.lock_test
     {
         private static readonly AutoResetEvent _autoResetEvent = new AutoResetEvent(true);
 
-        [Fact]
+        //[Fact]
         public void 按照顺序经过锁执行()
         {
             var semaphoreSlim = new SemaphoreSlim(10, 20);
