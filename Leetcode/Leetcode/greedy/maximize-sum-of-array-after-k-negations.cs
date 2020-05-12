@@ -13,7 +13,7 @@ namespace Leetcode.greedy
     public class maximize_sum_of_array_after_k_negations
     {
         [Fact]
-        public void 次取反后最大化的数组和()
+        public void K次取反后最大化的数组和()
         {
             LargestSumAfterKNegations(new int[] { 4, 2, 3 }, 1).ShouldBe(5);
             LargestSumAfterKNegations(new int[] { 3, -1, 0, 2 }, 3).ShouldBe(6);
