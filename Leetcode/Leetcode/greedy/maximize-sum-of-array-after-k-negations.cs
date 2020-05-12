@@ -8,7 +8,7 @@ using System.Linq;
 namespace Leetcode.greedy
 {
     /// <summary>
-    /// 次取反后最大化的数组和
+    /// K 次取反后最大化的数组和
     /// </summary>
     public class maximize_sum_of_array_after_k_negations
     {
