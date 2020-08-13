@@ -24,15 +24,12 @@ namespace Leetcode.bit_manipulation
         {
             var chars = "0123456789abcdef";
             var sb = new StringBuilder();
-            var cnt = 8;
             do
             {
                 var lowbit4 = num & 0xf;
                 sb.Append(chars[lowbit4]);
                 num >>= 4;
-                cnt--;
-            } while (num != 0 && cnt > 0);
-
+            } while (num != 0 && sb.Length < 8);
 
             return string.Join("", sb.ToString().Reverse());
         }
