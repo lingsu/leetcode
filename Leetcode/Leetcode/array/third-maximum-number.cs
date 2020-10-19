@@ -16,7 +16,7 @@ namespace Leetcode.array
         public void 第三大的数()
         {
             ThirdMax(new int[] { 1, 2, 3 }).ShouldBe(1);
-            ThirdMax(new int[] { 1, 2, 3 }).ShouldBe(1);
+            ThirdMax(new int[] { 1, 2 }).ShouldBe(2);
         }
         public int ThirdMax(int[] nums)
         {
