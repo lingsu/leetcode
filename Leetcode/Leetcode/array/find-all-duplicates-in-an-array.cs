@@ -14,7 +14,7 @@ namespace Leetcode.array
         [Fact]
         public void 数组中重复的数据()
         {
-            //FindDuplicates(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 }).ShouldBe(new List<int>() { 2, 3 }, ignoreOrder: true);
+            FindDuplicates(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 }).ShouldBe(new List<int>() { 2, 3 }, ignoreOrder: true);
             FindDuplicates(new int[] { 10, 2, 5, 10, 9, 1, 1, 4, 3, 7 }).ShouldBe(new List<int>() { 10, 1 }, ignoreOrder: true);
         }
         public IList<int> FindDuplicates(int[] nums)
